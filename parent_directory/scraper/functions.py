@@ -257,7 +257,7 @@ def load_(file_name, df):
         df (pd.DataFrame): a DataFrame containing the code (if any) and courses name.
     """
 
-    EXCEL_FILES_PATH = r'C:\Users\StuDocu\Projects\campuslab_scraper\parent_directory\files\excel_output'
+    EXCEL_FILES_PATH = r'C:/Users/studocu/Library/Containers/com.microsoft.Excel/Data/Downloads/output.xlsx'
     EXTENSION = '.xlsx'
     PATH_FILE = EXCEL_FILES_PATH + '/' + file_name + EXTENSION
     df.to_excel(PATH_FILE, index=False, engine='xlsxwriter')
@@ -288,7 +288,7 @@ def scrape_multiples():
     
     start_time = time.time()
     
-    EXCEL_PATH = r'C:\Users\StuDocu\Projects\campuslab_scraper\parent_directory\files\excel_input\input.xlsx'
+    EXCEL_PATH = r'C:/Users/studocu/Library/Containers/com.microsoft.Excel/Data/Downloads/input.xlsx'
 
     df_ = pd.read_excel(EXCEL_PATH)
 
