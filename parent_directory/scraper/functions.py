@@ -27,7 +27,7 @@ def call_driver_(url):
     Returns:
         [WebDriver]: A driver.
     """
-    DRIVER_PATH = r'C:\Users\StuDocu\Projects\campuslab_scraper\parent_directory\scraper\driver\chromedriver.exe'    
+    DRIVER_PATH = r'/Users/studocu/Downloads/campuslab_scraper-main/parent_directory/scraper/driver/chromedriver.exe'    
     driver = webdriver.Chrome(DRIVER_PATH)
     
     driver.get(url)
