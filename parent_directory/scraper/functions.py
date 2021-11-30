@@ -288,7 +288,7 @@ def scrape_multiples():
     
     start_time = time.time()
     
-    EXCEL_PATH = r'/Users/studocu/Library/Containers/com.microsoft.Excel/Data/Downloads/input.xlsx'
+    EXCEL_PATH = r'/Users/studocu/Desktop/excel_input/input.xlsx'
 
     df_ = pd.read_excel(EXCEL_PATH)
 
