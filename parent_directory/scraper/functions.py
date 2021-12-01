@@ -257,7 +257,7 @@ def load_(file_name, df):
         df (pd.DataFrame): a DataFrame containing the code (if any) and courses name.
     """
 
-    EXCEL_FILES_PATH = r'C:/Users/studocu/Downloads'
+    EXCEL_FILES_PATH = r'/Users/studocu/Downloads'
     EXTENSION = '.xlsx'
     PATH_FILE = EXCEL_FILES_PATH + '/' + file_name + EXTENSION
     df.to_excel(PATH_FILE, index=False, engine='xlsxwriter')
